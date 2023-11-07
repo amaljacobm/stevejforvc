@@ -1,0 +1,113 @@
+Sure, here's a simple login/signup template in HTML with inline CSS:
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login/Sign Up</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+
+        .container {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .form-group {
+            margin: 15px 0;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        .switch {
+            text-align: center;
+        }
+
+        .switch a {
+            text-decoration: none;
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Login/Sign Up</h1>
+        <form id="login-form">
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" placeholder="Enter your username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            </div>
+            <button type="submit">Login</button>
+        </form>
+        <div class="switch">
+            <p>Don't have an account? <a href="#signup-form">Sign up</a></p>
+        </div>
+    </div>
+
+    <div class="container" id="signup-form" style="display: none;">
+        <h1>Sign Up</h1>
+        <form id="signup-form">
+            <div class="form-group">
+                <label for="new-username">New Username</label>
+                <input type="text" id="new-username" name="new-username" placeholder="Enter your new username" required>
+            </div>
+            <div class="form-group">
+                <label for="new-password">New Password</label>
+                <input type="password" id="new-password" name="new-password" placeholder="Enter your new password" required>
+            </div>
+            <button type="submit">Sign Up</button>
+        </form>
+        <div class="switch">
+            <p>Already have an account? <a href="#login-form">Login</a></p>
+        </div>
+    </div>
+
+    <script>
+        // JavaScript can be added here for handling form submissions and toggling between login and signup forms.
+    </script>
+</body>
+</html>
+```
+
+This template includes both a login and signup form with a toggle switch to switch between them. The JavaScript section is left empty for you to add the necessary functionality for form submission and interactivity.
