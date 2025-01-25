@@ -1,6 +1,6 @@
-JohnDoe Free Bootstrap landing page for personal and commercial use. Designed with ♥️ and creativity by Devcrud.com 
+Website For Steve Jordan Running for VC By AMAL JACOB MATHEW
 
-Product Page: https://wwww.devcrud.com/
+Design Template: https://wwww.devcrud.com/
 
 Credits:
 
